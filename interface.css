@@ -1,0 +1,52 @@
+body{
+    background-image: url(img/background.jpg);
+    background-size: 100%;
+    margin-top: 15%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Play';
+}
+
+#box{
+    background-color: bisque;
+    border-top: 3px solid #84c3ff;
+    padding: 50x 25px;
+    opacity: 0.9;
+    text-align: center;
+    box-align: center;
+    background-position: center;
+    height: 50%;
+    width: 50%;
+}
+
+ul{
+    margin-right: 100px;
+    margin-left: 100px;
+    list-style-image: url(img/li.png);
+    vertical-align: center;
+    text-align: left;
+    font-family: 'Kalam';
+    font-size: 14px;
+    font-size-adjust: inherit;
+}
+
+#novaTarefa{
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#adicionar{
+    background-color: rgb(56, 102, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Play';
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
